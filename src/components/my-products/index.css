@@ -1,0 +1,44 @@
+.my-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 12px auto;
+  max-width: 1280px;
+}
+
+.my-products li {
+  margin: 0;
+}
+
+.my-products a {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--foreground);
+  background: var(--background);
+  font-size: 14px;
+  transition: 0.2s ease;
+}
+
+.my-products a:hover {
+  border-color: var(--ring);
+  transform: translateY(-1px);
+  background: var(--accent);
+  color: var(--accent-foreground);
+}
+
+.my-products a img {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  margin-right: 4px;
+}
+
+.my-products a strong {
+  font-weight: 600;
+}
