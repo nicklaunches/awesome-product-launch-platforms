@@ -1,9 +1,9 @@
-!!! AMPTOMW !!!
+!!! product-launch-platforms landin.ai !!!
 
 ## 通用规则
 
 - 回复使用中文；代码注释用中文；界面文案默认英语。
-- 每次回复第一行固定输出 `!!! AMPTOMW !!!`。
+- 每次回复第一行固定输出 `!!! product-launch-platforms landin.ai !!!`。
 - 不要过度设计，保持代码简单、可读、实用。
 - 优先复用已有模块与能力，控制圈复杂度。
 - 改动最小化，避免修改无关文件与逻辑。

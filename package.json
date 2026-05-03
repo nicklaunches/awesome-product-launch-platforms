@@ -11,6 +11,7 @@
     "check:write": "biome check --write .",
     "deploy": "pnpm run build:cf && wrangler deploy",
     "dev": "next dev --turbo",
+    "gen:readme-links": "node scripts/generate-readme-links.mjs",
     "preview": "next build && next start",
     "preview:cf": "opennextjs-cloudflare preview",
     "start": "next start",
