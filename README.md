@@ -2,6 +2,11 @@
 
 Product Launch Channels for Indie Hackers - A curated and growing list of platforms where you can launch, submit, and promote your product as an indie hacker or startup founder.
 
+- [Overview](#awesome-product-launch-platforms)
+- [Links](#links)
+  - [Free](#free)
+  - [Paid](#paid)
+
 ## Links
 
 Browse platforms and choose where to launch your product:
