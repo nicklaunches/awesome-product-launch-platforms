@@ -12,17 +12,32 @@ function escapeMarkdown(text) {
 }
 
 function buildTable(items) {
-  const lines = ["| Link | Description | Status |", "| --- | --- | --- |"];
+  const lines = ["| Link | Description |", "| --- | --- |"];
 
   for (const item of items) {
     const name = escapeMarkdown(item.name);
     const href = escapeMarkdown(item.href);
     const description = escapeMarkdown(item.description);
-    const status = item.tag === "Paid" ? "Paid" : "Free";
-    lines.push(`| [${name}](${href}) | ${description} | ${status} |`);
+    lines.push(`| [${name}](${href}) | ${description} |`);
   }
 
   return lines.join("\n");
+}
+
+function buildContent(items) {
+  const freeItems = items.filter((item) => item.tag !== "Paid");
+  const paidItems = items.filter((item) => item.tag === "Paid");
+
+  const sections = [];
+  sections.push("### Free");
+  sections.push("");
+  sections.push(buildTable(freeItems));
+  sections.push("");
+  sections.push("### Paid");
+  sections.push("");
+  sections.push(buildTable(paidItems));
+
+  return sections.join("\n");
 }
 
 async function main() {
@@ -39,8 +54,8 @@ async function main() {
   }
 
   const before = readmeRaw.slice(0, markerIndex + SECTION_MARKER.length);
-  const table = buildTable(data);
-  const nextReadme = `${before}\n${table}\n`;
+  const content = buildContent(data);
+  const nextReadme = `${before}\n${content}\n`;
 
   await writeFile(README_PATH, nextReadme, "utf8");
   console.log(`README updated with ${data.length} links.`);
