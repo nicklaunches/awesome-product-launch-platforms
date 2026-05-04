@@ -1,6 +1,6 @@
 import { readFile, writeFile } from "node:fs/promises";
 
-const DATA_PATH = new URL("../links/data.json", import.meta.url);
+const DATA_PATH = new URL("../src/links/data.json", import.meta.url);
 const README_PATH = new URL("../README.md", import.meta.url);
 const SECTION_MARKER = "## Links\n\nBrowse platforms and choose where to launch your product:\n";
 
@@ -45,7 +45,7 @@ async function main() {
 
   const data = JSON.parse(dataRaw);
   if (!Array.isArray(data)) {
-    throw new Error("links/data.json must be an array.");
+    throw new Error("src/links/data.json must be an array.");
   }
 
   const markerIndex = readmeRaw.indexOf(SECTION_MARKER);
