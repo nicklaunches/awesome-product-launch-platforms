@@ -18,24 +18,6 @@
     "href": "https://aitooltips.com/add-tool/"
   },
   {
-    "name": "AIREGISTERS",
-    "icon": "https://airegisters.com/favicon.ico",
-    "description": "AI tools directory for various categories.",
-    "da": 2,
-    "visits": 0,
-    "tag": "Login",
-    "href": "https://airegisters.com/account/login/?redirect=https%3A%2F%2Fairegisters.com%2Fsubmit-listing%2F"
-  },
-  {
-    "name": "aiutor",
-    "icon": "https://www.aiutor.com/favicon.ico",
-    "description": "AI tools directory for comprehensive resources",
-    "da": 8,
-    "visits": 0,
-    "tag": "Login",
-    "href": "https://www.aiutor.com/login-register/"
-  },
-  {
     "name": "Brainik",
     "icon": "https://brainik.com/favicon.ico",
     "description": "",
@@ -45,15 +27,6 @@
     "href": "https://brainik.com/directory/?wpbdp_view=submit_listing"
   },
   {
-    "name": "GetByte",
-    "icon": "https://www.getbyte.tech/favicon.ico",
-    "description": "Empowering businesses through innovative product visibility solutions.",
-    "da": 2,
-    "visits": 0,
-    "tag": "Login",
-    "href": "https://www.getbyte.tech/listing/email-check"
-  },
-  {
     "name": "Getworm",
     "icon": "https://getworm.com/favicon.ico",
     "description": "",
@@ -61,24 +34,6 @@
     "visits": 0,
     "tag": "Login",
     "href": "https://getworm.com/submit-startup"
-  },
-  {
-    "name": "Heroku",
-    "icon": "https://aitoppicks.com/favicon.ico",
-    "description": "Cloud platform for building and deploying apps.",
-    "da": 2,
-    "visits": 0,
-    "tag": "Paid",
-    "href": "https://aitoppicks.com/"
-  },
-  {
-    "name": "IndieAI",
-    "icon": "https://www.indieai.co/favicon.ico",
-    "description": "The best AI tools for founders and creators.",
-    "da": 2,
-    "visits": 0,
-    "tag": "Free",
-    "href": "https://www.indieai.co/add-tool"
   },
   {
     "name": "Inouts",
@@ -484,15 +439,6 @@
     "visits": 2589,
     "tag": "Login",
     "href": "https://startupstage.app/"
-  },
-  {
-    "name": "AI Stash",
-    "icon": "https://www.aistash.co/favicon.ico",
-    "description": "Directory for top AI software tools.",
-    "da": 8,
-    "visits": 2555,
-    "tag": "Paid",
-    "href": "https://www.aistash.co/submit-tool"
   },
   {
     "name": "SuperAITools",
@@ -1584,15 +1530,6 @@
     "href": "https://www.gptdemo.net/gpt/add-tool"
   },
   {
-    "name": "Appoint an AI",
-    "icon": "https://www.appointanai.com/favicon.ico",
-    "description": "",
-    "da": 1,
-    "visits": 45474,
-    "tag": "Form",
-    "href": "https://www.appointanai.com/submit"
-  },
-  {
     "name": "KillerStartups",
     "icon": "https://www.killerstartups.com/favicon.ico",
     "description": "Startup news and resources for entrepreneurs.",
@@ -1818,15 +1755,6 @@
     "href": "https://www.thataicollection.com/en/submit/"
   },
   {
-    "name": "Rapid AI DAta Yields",
-    "icon": "https://raiday.ai/favicon.ico",
-    "description": "Generative AI products for everyone",
-    "da": 10,
-    "visits": 154436,
-    "tag": "Free",
-    "href": "https://raiday.ai/submit-ai-tool/"
-  },
-  {
     "name": "Active Search Results",
     "icon": "https://www.activesearchresults.com/favicon.ico",
     "description": "Independent Internet search engine ranking technology.",
@@ -1888,15 +1816,6 @@
     "visits": 125111,
     "tag": "Login",
     "href": "https://findmyaitool.com/submit-tool/"
-  },
-  {
-    "name": "All Things AI",
-    "icon": "https://allthingsai.com/favicon.ico",
-    "description": "AI agent calendar assistant powered by GPT-4.",
-    "da": 41,
-    "visits": 123302,
-    "tag": "Login",
-    "href": "https://allthingsai.com/member/sign-up"
   },
   {
     "name": "Gate 2 AI",
@@ -2023,15 +1942,6 @@
     "visits": 197893,
     "tag": "Paid",
     "href": "https://www.aitoolhunt.com/submit"
-  },
-  {
-    "name": "aiTree",
-    "icon": "https://aitree.io/favicon.ico",
-    "description": "Directory for discovering AI tools easily.",
-    "da": 13,
-    "visits": 191734,
-    "tag": "Paid",
-    "href": "https://aitree.io/plan"
   },
   {
     "name": "AIToolMall",

@@ -17,12 +17,8 @@ Browse platforms and choose where to launch your product:
 | --- | --- |
 | [AI Tools Marketer](https://aitoolsmarketer.com/submit/) |  |
 | [AI Tooltips](https://aitooltips.com/add-tool/) | Curated directory of AI tools and resources. |
-| [AIREGISTERS](https://airegisters.com/account/login/?redirect=https%3A%2F%2Fairegisters.com%2Fsubmit-listing%2F) | AI tools directory for various categories. |
-| [aiutor](https://www.aiutor.com/login-register/) | AI tools directory for comprehensive resources |
 | [Brainik](https://brainik.com/directory/?wpbdp_view=submit_listing) |  |
-| [GetByte](https://www.getbyte.tech/listing/email-check) | Empowering businesses through innovative product visibility solutions. |
 | [Getworm](https://getworm.com/submit-startup) |  |
-| [IndieAI](https://www.indieai.co/add-tool) | The best AI tools for founders and creators. |
 | [Inouts](https://www.inouts.com/add-service) | Find online tools by outcomes |
 | [Makerpeak](https://makerpeak.com/profile/products/submit) |  |
 | [Pulse](https://pulse.welodge.co.zw/app/startups/new) | Discover the Latest Startups |
@@ -159,7 +155,6 @@ Browse platforms and choose where to launch your product:
 | [Beta Bound](https://betabound.com/announce/) |  |
 | [AIToolGuru](https://aitoolguru.com/submit-ai-tool) |  |
 | [GptDemo.Net](https://www.gptdemo.net/gpt/add-tool) | AI tools for various applications and industries. |
-| [Appoint an AI](https://www.appointanai.com/submit) |  |
 | [KillerStartups](https://www.killerstartups.com/submit-startup) | Startup news and resources for entrepreneurs. |
 | [SEOFAI](https://seofai.com/submit-tool/) | AI tools directory and updates |
 | [Phygital](https://library.phygital.plus/tool-submission?ref=aidirectories) | Innovative solutions for digital and physical integration. |
@@ -183,7 +178,6 @@ Browse platforms and choose where to launch your product:
 | [TopApps.Ai](https://topapps.ai/submit) | AI tool search engine and reviews. |
 | [AI Collection](https://www.thataicollection.com/submit/) | Collection of generative AI applications |
 | [That AI collection](https://www.thataicollection.com/en/submit/) | Collection of generative AI applications |
-| [Rapid AI DAta Yields](https://raiday.ai/submit-ai-tool/) | Generative AI products for everyone |
 | [Active Search Results](https://www.activesearchresults.com/addwebsite.php) | Independent Internet search engine ranking technology. |
 | [Beta List](https://betalist.com/) | Discover and get early access to tomorrow's startups. |
 | [KitPloit](https://www.kitploit.com/p/submit-tool.html) | PenTest and Hacking Tools |
@@ -191,7 +185,6 @@ Browse platforms and choose where to launch your product:
 | [ContentShake](https://aitoolsdirectory.com/submit-tool) | AI content writing assistant for SEO optimization. |
 | [Stork](https://www.stork.ai/submit-ai-tool) | AI Tools Directory |
 | [Find My AI Tool](https://findmyaitool.com/submit-tool/) | AI tools directory for users and businesses. |
-| [All Things AI](https://allthingsai.com/member/sign-up) | AI agent calendar assistant powered by GPT-4. |
 | [Gate 2 AI](https://www.gate2ai.com/submit-tool) |  |
 | [FiveTaco](https://fivetaco.com/submit) | How solopreneurs find software |
 | [Tekpon](https://tekpon.com/get-listed/?ref=aidirectori.es) | B2B SaaS marketplace for software reviews |
@@ -243,7 +236,6 @@ Browse platforms and choose where to launch your product:
 
 | Link | Description |
 | --- | --- |
-| [Heroku](https://aitoppicks.com/) | Cloud platform for building and deploying apps. |
 | [Madgenius](https://madgenius.co/submit) |  |
 | [Joinly](https://www.joinly.xyz/submit-startup) | Get fresh startups and products in your inbox |
 | [100 AI Apps Directory](https://100apps.org/register) | Discover 100 AI tools for your needs |
@@ -252,7 +244,6 @@ Browse platforms and choose where to launch your product:
 | [FeaturedAITool](https://featuredaitool.com/submit/) | Platform for AI tool reviews and submissions. |
 | [GPT Academy](https://www.gptacademy.co/) | AI tools and courses |
 | [Easy Save AI](https://easysaveai.com/submit-your-ai-tool/) |  |
-| [AI Stash](https://www.aistash.co/submit-tool) | Directory for top AI software tools. |
 | [Powered by AI](https://poweredbyai.app/submit-tool) | Wide range of AI tools listed |
 | [Tools No Code](https://www.toolsnocode.com/prices) | Boost tool visibility in NoCode environment. |
 | [Best AI Tools](https://bestaito.com/submit-a-ai-tool/) | Aggregates top AI tools and websites. |
@@ -279,7 +270,6 @@ Browse platforms and choose where to launch your product:
 | [Stevie AI](https://aicenter.ai/products/submit) | SEO tool for startups and e-commerce brands. |
 | [Kling AI](https://ai-search.io/submit) | High-quality video creation and manipulation platform |
 | [AI Tool Hunt](https://www.aitoolhunt.com/submit) | Explore top AI tools to enhance digital experience. |
-| [aiTree](https://aitree.io/plan) | Directory for discovering AI tools easily. |
 | [OpenTools](https://friends.opentools.ai/) | Discover and compare thousands of AI tools. |
 | [There's An AI For That](https://theresanaiforthat.com/get-featured/#opt_submit) | AI tools aggregator and search engine. |
 | [Toolify](https://www.toolify.ai/submit) |  |

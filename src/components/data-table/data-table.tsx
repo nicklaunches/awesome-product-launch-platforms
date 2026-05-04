@@ -1,4 +1,8 @@
-import { flexRender, type Table as TanstackTable } from "@tanstack/react-table";
+import {
+  type Column,
+  flexRender,
+  type Table as TanstackTable,
+} from "@tanstack/react-table";
 import type * as React from "react";
 
 import { DataTablePagination } from "~/components/data-table/data-table-pagination";
@@ -10,17 +14,34 @@ import {
   TableHeader,
   TableRow,
 } from "~/components/ui/table";
-import { getColumnPinningStyle } from "~/components/data-table/data-table";
 import { cn } from "~/lib/utils";
+
+function getColumnPinningStyle<TData>({
+  column,
+}: {
+  column: Column<TData>;
+}): React.CSSProperties {
+  const isPinned = column.getIsPinned();
+
+  return {
+    left: isPinned === "left" ? `${column.getStart("left")}px` : undefined,
+    position: isPinned ? "sticky" : "relative",
+    right: isPinned === "right" ? `${column.getAfter("right")}px` : undefined,
+    width: column.getSize(),
+    zIndex: isPinned ? 1 : 0,
+  };
+}
 
 interface DataTableProps<TData> extends React.ComponentProps<"div"> {
   table: TanstackTable<TData>;
   actionBar?: React.ReactNode;
+  showPagination?: boolean;
 }
 
 export function DataTable<TData>({
   table,
   actionBar,
+  showPagination = true,
   children,
   className,
   ...props
@@ -38,8 +59,8 @@ export function DataTable<TData>({
               <TableRow key={headerGroup.id}>
                 {headerGroup.headers.map((header) => (
                   <TableHead
-                    key={header.id}
                     colSpan={header.colSpan}
+                    key={header.id}
                     style={{
                       ...getColumnPinningStyle({ column: header.column }),
                     }}
@@ -59,8 +80,8 @@ export function DataTable<TData>({
             {table.getRowModel().rows?.length ? (
               table.getRowModel().rows.map((row) => (
                 <TableRow
-                  key={row.id}
                   data-state={row.getIsSelected() && "selected"}
+                  key={row.id}
                 >
                   {row.getVisibleCells().map((cell) => (
                     <TableCell
@@ -80,8 +101,8 @@ export function DataTable<TData>({
             ) : (
               <TableRow>
                 <TableCell
-                  colSpan={table.getAllColumns().length}
                   className="h-24 text-center"
+                  colSpan={table.getAllColumns().length}
                 >
                   No results.
                 </TableCell>
@@ -90,12 +111,14 @@ export function DataTable<TData>({
           </TableBody>
         </Table>
       </div>
-      <div className="flex flex-col gap-2.5">
-        <DataTablePagination table={table} />
-        {actionBar &&
-          table.getFilteredSelectedRowModel().rows.length > 0 &&
-          actionBar}
-      </div>
+      {showPagination ? (
+        <div className="flex flex-col gap-2.5">
+          <DataTablePagination table={table} />
+          {actionBar &&
+            table.getFilteredSelectedRowModel().rows.length > 0 &&
+            actionBar}
+        </div>
+      ) : null}
     </div>
   );
 }
