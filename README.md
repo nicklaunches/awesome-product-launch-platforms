@@ -231,6 +231,7 @@ Browse platforms and choose where to launch your product:
 | [LibHunt](https://www.libhunt.com/repo/submit) | Find and track open-source projects |
 | [PeerSpot](https://www.peerspot.com/contact) | Reviews, Discussions, and Advice from Real Users |
 | [AllMyFaves](https://allmyfaves.com/user/login) | Organize bookmarks and life easily online. |
+| https://nicklaunches.com/ | Launch platform for builders, AI startups, and SaaS founders to get discovered and earn a permanent dofollow backlink. |
 
 ### Paid
 
